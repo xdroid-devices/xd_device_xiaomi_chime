@@ -127,6 +127,10 @@ include $(LOCAL_PATH)/rootdir/charger/charger.mk
 PRODUCT_PACKAGES += \
     libsuspend
 
+# Configstore
+PRODUCT_PACKAGES += \
+    disable_configstore
+
 # Dex
 ifneq ($(TARGET_BUILD_VARIANT),eng)
 PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := verify
