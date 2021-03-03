@@ -48,3 +48,7 @@ endif
 # Disable remote keyguard animation
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     persist.wm.enable_remote_keyguard_animation=0
+
+# IORap
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    ro.iorapd.enable=true
