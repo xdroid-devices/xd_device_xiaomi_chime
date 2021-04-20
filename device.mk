@@ -124,6 +124,8 @@ PRODUCT_COPY_FILES += \
 
 # Charger
 include $(LOCAL_PATH)/rootdir/charger/charger.mk
+PRODUCT_PACKAGES += \
+    libsuspend
 
 # Display
 PRODUCT_PACKAGES += \
