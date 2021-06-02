@@ -80,7 +80,6 @@ TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):init_juice
 TARGET_RECOVERY_DEVICE_MODULES := init_juice
 
 # Kernel
-BOARD_KERNEL_CMDLINE += console=ttyMSM0,115200n8 earlycon=msm_geni_serial,0x4a90000
 BOARD_KERNEL_CMDLINE += androidboot.hardware=qcom androidboot.memcg=1
 BOARD_KERNEL_CMDLINE += lpm_levels.sleep_disabled=1 msm_rtb.filter=0x237
 BOARD_KERNEL_CMDLINE += service_locator.enable=1 swiotlb=2048
