@@ -169,6 +169,7 @@ debug.mdpcomp.logs=0
 debug.renderengine.backend=skiaglthreaded
 debug.cpurend.vsync=false
 debug.sf.hw=0
+persist.sys.sf.native_mode=0
 renderthread.skia.reduceopstasksplitting=true
 persist.demo.hdmirotationlock=false
 persist.sys.sf.color_mode=7
