@@ -14,6 +14,15 @@
 # limitations under the License.
 #
 
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+    ro.surface_flinger.force_hwc_copy_for_virtual_displays=true \
+    ro.surface_flinger.has_HDR_display=true \
+    ro.surface_flinger.has_wide_color_display=true \
+    ro.surface_flinger.protected_contents=true \
+    ro.surface_flinger.set_touch_timer_ms=200 \
+    ro.surface_flinger.use_color_management=true \
+    ro.surface_flinger.wcg_composition_dataspace=143261696
+
 # Enable app/sf phase offset as durations. The numbers below are translated from the existing
 # positive offsets by finding the duration app/sf will have with the offsets.
 # For SF the previous value was 6ms which under 16.6ms vsync time (60Hz) will leave SF with ~10.5ms
