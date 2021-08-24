@@ -1,6 +1,9 @@
 # Bluetooth
 vendor.bluetooth.soc=cherokee
 
+# Blur
+ro.launcher.blur.appLaunch=false
+
 # Camera
 camera.disable_zsl_mode=1
 
