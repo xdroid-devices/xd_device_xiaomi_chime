@@ -131,9 +131,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     disable_configstore
 
-# DeviceSettings
+# Device Parts
 PRODUCT_PACKAGES += \
-    XiaomiParts
+    DeviceParts
 
 # Dex
 ifneq ($(TARGET_BUILD_VARIANT),eng)
