@@ -425,6 +425,11 @@ service panel_color /vendor/bin/panelcolor_bin
     oneshot
     disabled
 
+on property:vendor.sys.thermal.active=*
+    chmod 644 /sys/class/thermal/thermal_message/sconfig
+    chown system system /sys/class/thermal/thermal_message/sconfig
+    write /sys/class/thermal/thermal_message/sconfig ${vendor.sys.thermal.active}
+
 on property:sys.boot_completed=1
     start panel_color
 
