@@ -20,6 +20,9 @@ cc_library_static {
     name: "init_juice",
     srcs: ["init_juice.cpp"],
     whole_static_libs: ["libinit_juice"],
-    include_dirs: ["system/core/init"],
+    include_dirs: [ 
+        "system/libbase/include",
+        "system/core/init",
+    ],
     recovery_available: true,
 }
