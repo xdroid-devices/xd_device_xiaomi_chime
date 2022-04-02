@@ -1,0 +1,4 @@
+service vendor.qti.vibrator.juice /vendor/bin/hw/vendor.qti.hardware.vibrator.service.juice
+    class hal
+    user system
+    group system input

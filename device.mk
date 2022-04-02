@@ -445,8 +445,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     vndservicemanager
 
-# Shipping API level
-PRODUCT_SHIPPING_API_LEVEL := 29
+# Vibrator
+PRODUCT_PACKAGES += \
+    vendor.qti.hardware.vibrator.service.juice \
+    vendor.qti.hardware.vibrator-impl
 
 # Wi-Fi
 PRODUCT_PACKAGES += \
