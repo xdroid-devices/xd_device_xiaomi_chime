@@ -6,11 +6,20 @@
 
 cc_library_static {
     name: "libinit_juice",
-    srcs: ["init_juice.cpp"],
-    shared_libs: ["libbase"],
+    srcs: [
+        "libinit_dalvik_heap.cpp",
+        "libinit_variant.cpp",
+        "libinit_utils.cpp",
+    ],
+    whole_static_libs: ["libbase"],
+    export_include_dirs: ["include"],
     recovery_available: true,
-    include_dirs: [
-        "system/core/init",
-        "system/libbase/include"
-    ]
+}
+
+cc_library_static {
+    name: "init_juice",
+    srcs: ["init_juice.cpp"],
+    whole_static_libs: ["libinit_juice"],
+    include_dirs: ["system/core/init"],
+    recovery_available: true,
 }
