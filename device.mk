@@ -270,6 +270,16 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.neuralnetworks@1.3.vendor
 
+# NFC
+PRODUCT_PACKAGES += \
+    android.hardware.nfc@1.2-service.st \
+    com.android.nfc_extras \
+    libchrome.vendor \
+    nfc_nci.st21nfc.default \
+    NfcNci \
+    SecureElement \
+    Tag
+
 # OMX
 PRODUCT_PACKAGES += \
     android.hardware.media.omx@1.0-impl \
