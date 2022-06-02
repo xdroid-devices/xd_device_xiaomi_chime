@@ -15,9 +15,9 @@ service nfc_hal_service /vendor/bin/hw/android.hardware.nfc@1.2-service.st
     group nfc
     disabled
 
-on post-fs && property:ro.boot.product.hardware.sku=nfc
+on post-fs && property:ro.boot.product.hardware.sku=lemon
     start stflashtool
     setprop ro.vendor.se.type HCE,UICC
 
-on boot && property:ro.boot.product.hardware.sku=nfc
+on boot && property:ro.boot.product.hardware.sku=lemon
     start nfc_hal_service
