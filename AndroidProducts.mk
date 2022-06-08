@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/nad_juice.mk
+    $(LOCAL_DIR)/xdroid_juice.mk
 
 COMMON_LUNCH_CHOICES := \
-    nad_juice-user \
-    nad_juice-userdebug \
-    nad_juice-eng
+    xdroid_juice-user \
+    xdroid_juice-userdebug \
+    xdroid_juice-eng

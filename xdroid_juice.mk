@@ -11,18 +11,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from juice device
 $(call inherit-product, device/xiaomi/juice/device.mk)
 
-# Inherit some common NusantaraProject stuff.
-$(call inherit-product, vendor/nusantara/config/common_full_phone.mk)
-
-# Komodo-specific flags
-NAD_BUILD_TYPE := OFFICIAL
-USE_GAPPS := true
-
-# Bootanimation
-TARGET_BOOT_ANIMATION_RES := 1080
+# Inherit some common xdroidOSS stuff.
+$(call inherit-product, vendor/xdroid/config/common.mk)
+XDROID_MAINTAINER := frostg012
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := nad_juice
+PRODUCT_NAME := xdroid_juice
 PRODUCT_DEVICE := juice
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := sm6115
