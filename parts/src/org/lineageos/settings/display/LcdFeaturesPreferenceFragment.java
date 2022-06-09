@@ -31,8 +31,8 @@ import org.lineageos.settings.utils.FileUtils;
 public class LcdFeaturesPreferenceFragment extends PreferenceFragment
         implements Preference.OnPreferenceChangeListener {
 
-    public static final String HBM_NODE = "/sys/devices/platform/soc/soc:qcom,dsi-display-primary/hbm";
-    public static final String CABC_NODE = "/sys/devices/platform/soc/soc:qcom,dsi-display-primary/cabc";
+    public static final String HBM_NODE = "/sys/devices/platform/soc/soc:qcom,dsi-display-primary/dsi_display_hbm";
+    public static final String CABC_NODE = "/sys/devices/platform/soc/soc:qcom,dsi-display-primary/dsi_display_cabc";
 
     public static final String HBM_PROP = "persist.deviceparts.lcd.hbm";
     public static final String CABC_PROP = "persist.deviceparts.lcd.cabc";
