@@ -30,10 +30,10 @@ import org.lineageos.settings.utils.FileUtils;
 public final class HapticUtils {
 
     final static String PREF_LEVEL = "haptic_level_pref";
-    final static String PATH_LEVEL = "/sys/module/qti_haptics/parameters/level";
+    final static String PATH_LEVEL = "/sys/class/leds/vibrator/vtg_level";
 
     final static int MIN_LEVEL = 1;
-    final static int MAX_LEVEL = 3596;
+    final static int MAX_LEVEL = 3000;
 
     public static void applyLevel(Context context, int value, boolean test) {
         if (FileUtils.fileExists(PATH_LEVEL)) {
