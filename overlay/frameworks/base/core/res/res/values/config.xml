@@ -255,6 +255,8 @@
 
     <!-- Height of the status bar -->
      <dimen name="status_bar_height">32.0dip</dimen>
+     <dimen name="status_bar_height_default">32.0dp</dimen>
+     <dimen name="status_bar_height_landscape">30.0dp</dimen>
 
     <!-- The maximum range of gamma adjustment possible using the screen
          auto-brightness adjustment setting. -->

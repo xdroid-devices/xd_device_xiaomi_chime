@@ -23,11 +23,6 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <dimen name="rounded_corner_radius_bottom">90.0px</dimen>
-
     <dimen name="rounded_corner_radius_top">94.0px</dimen>
-
-    <dimen name="status_bar_height_landscape">28dp</dimen>
-
-    <dimen name="status_bar_height_portrait">28dp</dimen>
 
 </resources>
