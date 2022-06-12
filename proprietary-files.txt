@@ -943,9 +943,8 @@ vendor/lib/libsmwrapper.so
 system_ext/lib/libmmosal.so
 system_ext/lib/libmmparser_lite.so
 system_ext/lib64/libmmosal.so
-system_ext/lib64/libmmparser_lite.so
 vendor/etc/seccomp_policy/mediacodec.policy
-vendor/lib/libmmosal.so
+vendor/etc/system_properties.xml
 vendor/lib64/libmmosal.so
 
 # Media OMX
