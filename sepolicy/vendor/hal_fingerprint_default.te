@@ -40,3 +40,6 @@ allow hal_fingerprint_default sysfs:file { write };
 binder_call(hal_fingerprint_default, vndservicemanager)
 
 allow hal_fingerprint_default fingerprint_vndservice:service_manager { add find };
+
+# Allow hal_fingerprint_default to read system_prop
+allow hal_fingerprint_default system_prop:file r_file_perms;
