@@ -503,13 +503,8 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.touchfeature@1.0.vendor
 
 # USB
-ifneq ($(wildcard vendor/qcom/opensource/usb/hal/android.hardware.usb@1.3-service-qti.rc),)
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.3-service-qti
-else
-PRODUCT_PACKAGES += \
-    android.hardware.usb@1.2-service-qti
-endif
 
 PRODUCT_PACKAGES += \
     init.qcom.usb.rc \
