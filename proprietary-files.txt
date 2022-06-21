@@ -1,4 +1,4 @@
-# All the proprietary files are extracted from miui_LIMEPRE_22.6.8_391fd5416d_12.0.zip, unless pinned.
+# All the proprietary files are extracted from miui_LIMEPRE_22.6.15_e32238a0fc_12.0.zip, unless pinned.
 
 # ACDB
 vendor/etc/acdbdata/IDP/bengal-scubaidp-snd-card/IDP_Scuba_Bluetooth_cal.acdb
