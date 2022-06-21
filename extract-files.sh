@@ -61,6 +61,9 @@ function blob_fixup() {
         vendor/bin/mi_thermald)
             sed -i 's/%d\/on/%d\/../g' "${2}"
             ;;
+        vendor/lib64/camera/components/com.qti.node.mialgocontrol.so)
+            llvm-strip --strip-debug  "${2}"
+            ;;
     esac
 }
 
