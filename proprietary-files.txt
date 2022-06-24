@@ -1510,22 +1510,24 @@ vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so
 vendor/lib64/vendor.qti.hardware.soter@1.0.so
 
 # Thermal engine
-vendor/bin/mi_thermald
-vendor/bin/thermal-engine
-vendor/etc/init/init_thermal-engine.rc
-vendor/etc/thermal-arvr.conf
-vendor/etc/thermal-camera.conf
-vendor/etc/thermal-chg-only.conf
-vendor/etc/thermal-engine.conf
-vendor/etc/thermal-map.conf
-vendor/etc/thermal-nolimits.conf
-vendor/etc/thermal-normal.conf
-vendor/etc/thermal-phone.conf
-vendor/etc/thermal-tgame.conf
 vendor/etc/thermal-youtube.conf
-vendor/etc/thermald-devices.conf
--vendor/lib/libthermalclient.so
--vendor/lib64/libthermalclient.so
+
+# Thermal engine - from vayu-user-12-RKQ1.200826.002-V13.0.3.0.SJUMIXM-release-keys
+vendor/bin/mi_thermald|10819d0c3ef49d3fb3cecf6aa7969150dd228e8a
+vendor/bin/thermal-engine|e74184e124c41e51535fad6a6ad9cc089695211b
+vendor/etc/init/init.mi_thermald.rc|6505d89e19957888612d89f6769585a7d26af080
+vendor/etc/thermal-arvr.conf|6a4ed4618cd0cf7324ae9e6f7da23f1fcd89afee
+vendor/etc/thermal-camera.conf|18d2bae9302f06081e7eb69752e82cb32a303839
+vendor/etc/thermal-chg-only.conf|9ec999aad9221472597d0697db4e4d684a5d4e92
+vendor/etc/thermal-engine.conf|c6c9312b7c7b52926cf7d0fc9bff933d90967100
+vendor/etc/thermal-map.conf|ce8e4c4a688d95a1c371b94e9a93e30bccf4fabc
+vendor/etc/thermal-nolimits.conf|4ca956e3dc427d9af4ac25c6acfc64dfa914c005
+vendor/etc/thermal-normal.conf|e86a79a5f690d72d53767598b3a1e9e3ae6c7fb2
+vendor/etc/thermal-phone.conf|f61907c309bf822eb0c7d5676145ebc804a5df2e
+vendor/etc/thermal-tgame.conf|bcac3570d560b10844c7da65b855a0df04f2e9aa
+vendor/etc/thermald-devices.conf|4c1514c5fcab20e1c2d8367d4afbebb0afddd20d
+-vendor/lib/libthermalclient.so|31533667b7f8137670189a14c68ccb51c7ca6dab
+-vendor/lib64/libthermalclient.so|41274c82e1a472d12b2ebcb4156f7f77b109efa8
 
 # Touchfeature - from vayu-user-12-RKQ1.200826.002-V13.0.3.0.SJUMIXM-release-keys
 vendor/bin/hw/vendor.xiaomi.hardware.touchfeature@1.0-service|f1cfba1d3fc5e20cc1e6f1acf8035ba396ede8e9
