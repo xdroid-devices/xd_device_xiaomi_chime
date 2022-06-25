@@ -5,6 +5,7 @@
  */
 
 #include <libinit_dalvik_heap.h>
+#include <libinit_utils.h>
 #include <libinit_variant.h>
 
 #include "vendor_init.h"
