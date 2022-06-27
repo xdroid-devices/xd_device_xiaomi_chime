@@ -1504,7 +1504,6 @@ vendor/etc/thermal-youtube.conf
 # Thermal engine - from vayu-user-12-RKQ1.200826.002-V13.0.3.0.SJUMIXM-release-keys
 vendor/bin/mi_thermald|10819d0c3ef49d3fb3cecf6aa7969150dd228e8a
 vendor/bin/thermal-engine|e74184e124c41e51535fad6a6ad9cc089695211b
-vendor/etc/init/init.mi_thermald.rc|6505d89e19957888612d89f6769585a7d26af080
 vendor/etc/thermal-arvr.conf|6a4ed4618cd0cf7324ae9e6f7da23f1fcd89afee
 vendor/etc/thermal-camera.conf|18d2bae9302f06081e7eb69752e82cb32a303839
 vendor/etc/thermal-chg-only.conf|9ec999aad9221472597d0697db4e4d684a5d4e92
