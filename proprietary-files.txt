@@ -1499,6 +1499,7 @@ vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so
 vendor/lib64/vendor.qti.hardware.soter@1.0.so
 
 # Thermal engine
+vendor/etc/init/init_thermal-engine.rc
 vendor/etc/thermal-youtube.conf
 
 # Thermal engine - from vayu-user-12-RKQ1.200826.002-V13.0.3.0.SJUMIXM-release-keys
