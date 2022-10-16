@@ -14,6 +14,7 @@ $(call inherit-product, device/xiaomi/chime/device.mk)
 # Inherit some common xdroidOSS stuff.
 $(call inherit-product, vendor/xdroid/config/common.mk)
 XDROID_MAINTAINER := frostg012
+XDROID_BOOT := 1080
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := xdroid_chime
